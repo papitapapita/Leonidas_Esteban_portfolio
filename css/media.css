@@ -1,0 +1,191 @@
+@media screen and (max-width: 1023px){
+	.events{
+		font-size: 8.9px;
+	}
+
+	.contact-container{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact__form__button{
+		margin: auto;
+	}
+
+	.contact__form__input-email{
+		margin-bottom: 20px;
+	}
+
+	.main{
+		position: relative;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main__title{
+		font-size: 2em;
+		text-align: center;
+		z-index: 10;
+	}
+
+	.main__image{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		max-width: initial;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.header{
+		height: auto;
+	}
+
+	.header__container{
+		flex-direction: column;
+	}
+
+	.main__title{
+		margin: 50px 0px;
+	}
+
+
+	.main__image__container{
+		width: 100%;
+		max-width: initial;
+		position: absolute;
+		left: 0;
+	}
+
+	.main__image{
+		max-width: initial;
+	}
+
+	.portfolio__article{
+		flex-direction: column;
+	}
+
+	.portfolio__article__image-container{
+		width: 100%;
+		text-align: center;
+	}
+
+	.portfolio__article__details{
+		width: 100%;
+	}
+
+	.events__article{
+		max-width: 98%;
+		margin: 1%;
+	}
+
+	.events__article__image{
+		max-width: fit-content;
+	}
+
+	.footer-container{
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	.navbar__menu{
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	.navbar__menu li{
+		margin-bottom: 4em;
+	}
+
+	.navbar__menu a{
+		font-size: 2em;
+	}
+
+	.header__navbar{
+		position: fixed;
+		top: 0;
+		left: -100vw;
+		z-index: 25;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(2, 111, 255, .9);
+		justify-content: center;
+		align-items: center;
+		transition: .5s;
+	}
+
+	.header__navbar.is-active{
+		left: 0;
+		transition: .5s;
+	}
+
+	.burger-menu{
+		display: block;
+	}
+
+	.main__title{
+		font-size: 1.46em;
+	}
+
+	.events{
+		font-size: 8.5px;
+	}
+
+	.contact__social-media-container{
+		flex-wrap: wrap;
+		width: 60%;
+		justify-content: center;
+	}
+	
+	.contact__form{
+		margin-bottom: 20px;
+	}
+	
+	.contact__form__input-email{
+		padding-right: 10px;
+	}
+	
+	.contact__social-media{
+		background-size: 50px 50px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.footer__description-platzi{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 319px){
+	.header__container{
+		justify-content: center;
+	}
+	
+	.portfolio__article__subtitle{
+		font-size: 15px;
+	}
+	
+	.events{
+		font-size: 8px;
+	}
+	
+	.contact__form__input-email{
+		padding-right: 10px;
+		background-size: 25px;
+		font-size: 15px;
+	}
+	
+	.contact__social-media-container{
+		width: 72%;
+	}
+}
+
